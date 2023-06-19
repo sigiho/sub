@@ -1,0 +1,209 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/variable/pretendardvariable.css");
+*{
+    font-family: "Pretendard Variable";
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding-top: 60px; */
+}
+a{
+    text-decoration: none;
+}
+
+/* top */
+.to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #FFC700;
+    color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.to-top a span{
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+/* 탑메뉴 */
+.top{
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    display: flex;
+    height: 60px;
+    background-color: #272F75;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.menu li a{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.menu li:hover {
+    text-decoration: underline 2px solid #FFC700;
+    text-underline-offset: 10px;
+}
+.option {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.option li a{
+    color: rgb(208, 208, 208);
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+.option li a span {
+    align-items: center;
+    padding-top: 5px;
+}
+
+/* 헤더 */
+.header {
+    text-align: center;
+    padding: 60px;
+    height: 270px;
+}
+.header img{
+    height: 150px;
+}
+
+/* 서브메뉴 */
+.sub-menu{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    width: 1200px;
+    border-bottom: 2px solid #D9D9D9;
+    border-top: 2px solid #D9D9D9;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub{
+    line-height: 60px;
+    display: flex;
+    margin-left: 60px;
+}
+#sub h2 {
+    margin:0 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+#sub h2:hover {
+    text-decoration: underline 3px solid #FFC700;
+    text-underline-offset: 10px;
+}
+.search {
+    width: 250px;
+    height: 30px;
+    margin-right: 60px;
+    position: relative;
+}
+  
+.search input {
+    width: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  
+.search span{
+    position: absolute;
+    width: 15px;
+    top: 5px;
+    right: 20px;
+}
+
+/* article */
+.box{
+    width: 1036px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 10px #90909033;
+    margin: 60px auto;
+    padding: 90px 0;
+}
+.title{
+    width: 794px;
+}
+.title h3{
+    font-size: 13px;
+    color: #272F75;
+    margin-bottom: 10px;
+}
+.title h1{
+    font-size: 20px;
+    color: #2c2c2c;
+}
+.title hr {
+    width: 100%;
+    border: 1px solid #D9D9D9;
+    margin: 10px 0;
+}
+.article{
+    line-height: 20px ;
+    width: 794px;
+}
+.article #qt{
+    text-align: center;
+    margin: 20px 0;
+}
+.article img{
+    width: 100%;
+}
+.article p{
+    text-align: justify;
+    margin: 40px 0;
+    font-size: 12px;
+}
+.next{
+    float: right;
+    margin-top: 20px;
+}
+.next a{
+    text-decoration: none;
+}
+.next a h3{
+    color: #333333;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    height: 250px;
+    background-color: #666666;
+    color: #DBDBDB;
+    padding: 85px;
+    font-size: 10px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #DBDBDB;
+    margin: 0 10px;
+}
+.footer a:hover{
+    font-weight: bold;
+}

@@ -1,0 +1,325 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.7/dist/web/variable/pretendardvariable.css");
+*{
+    font-family: "Pretendard Variable";
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* top */
+.to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #FFC700;
+    color: white;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+.to-top a span{
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+/* 탑메뉴 */
+.top{
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    display: flex;
+    height: 60px;
+    background-color: #272F75;
+    align-items: center;
+    padding: 8px 20px;
+    font-size: 15px;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.menu li a{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+.menu li:hover {
+    text-decoration: underline 2px solid #FFC700;
+    text-underline-offset: 10px;
+}
+.option {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.option li a{
+    color: rgb(208, 208, 208);
+    padding: 10px;
+    align-items: center;
+    font-weight: bold;
+}
+.option li a span {
+    align-items: center;
+    padding-top: 5px;
+}
+
+/* if */
+.if{
+    width: 100%;
+    background-color: #272F75;
+    padding: 50px 0;
+    text-align: center;
+}
+.if h1{
+    line-height: 70px;
+    font-size: 50px;
+    color: white;
+}
+.if h1 b{
+    -webkit-text-stroke: 1px #fff;
+    color: rgba(0, 0, 0, 0);
+}
+.if #fst{
+    margin: 30px;
+}
+.if #fst a{
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.if #fst a:hover{
+    background-color: white;
+    color: #272F75;
+}
+.book{
+    align-items: center;
+    width: 1200px;
+    margin-top: 100px;
+    display: flex;    
+    
+}
+.book img {
+    width: 180px;
+}
+.book a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.book p{
+    margin-top: 20px;
+}
+.book span {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+/* 서브메뉴 */
+.sub-menu{
+    background-color: white;
+    width: 1200px;
+    border-bottom: 2px solid #D9D9D9;
+    border-top: 2px solid #D9D9D9;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub{
+    line-height: 60px;
+    display: flex;
+    margin-left: 60px;
+}
+#sub h2 {
+    margin:0 20px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #333;
+}
+#sub h2:hover {
+    text-decoration: underline 3px solid #FFC700;
+    text-underline-offset: 10px;
+}
+.search {
+    width: 250px;
+    height: 30px;
+    margin-right: 60px;
+    position: relative;
+}
+  
+.search input {
+    width: 100%;
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 12px;
+    font-size: 12px;
+  }
+  
+.search span{
+    position: absolute;
+    width: 15px;
+    top: 5px;
+    right: 20px;
+}
+
+/* latest */
+.latest{
+    margin: 60px 0;
+    text-align: center;
+}
+.latest>h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+}
+.latest-info {
+    width: 1200px;
+    margin: 0 auto;
+}
+.boxx{
+    float: left;
+    margin: 10px;
+    width: 580px;
+    margin-bottom: 40px;
+}
+.boxx #img1{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686877153.8505.9.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img2{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686551744.4965.5.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img3{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686550338.5822.4.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img4{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686545907.9082.2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img5{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1687142398.8682.7.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img6{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686630356.8311.2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img7{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686547658.9666.6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img8{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686214922.2408.7.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img9{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1687136322.5473.1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img10{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686724929.5437.8.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img11{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686723565.8016.0.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx #img12{
+    background-image: url('https://cdn.designhouse.co.kr/cms/img/2023/06/M.1686624876.489.8.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 580px;
+}
+.boxx h3{
+    margin: 10px 0;
+    font-size: 12px;
+    color: #797979;
+}
+.boxx h2{
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #333333;
+}
+.boxx a {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #272F75;
+    border: 1px solid #272F75;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    height: 250px;
+    background-color: #666666;
+    color: #DBDBDB;
+    padding: 85px;
+    font-size: 10px;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #DBDBDB;
+    margin: 0 10px;
+}
+.footer a:hover{
+    font-weight: bold;
+}
